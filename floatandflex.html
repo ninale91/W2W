@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <style>
+    #container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      width: 100%
+    }
+
+    .header div {
+      background-color: red;
+      height: 200px;
+    }
+
+    footer {
+      width: 100%
+    }
+
+    footer div {
+      background-color: grey;
+      height: 200px;
+    }
+
+
+    .header h1 {
+      color: white;
+    }
+
+    .content {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .content div {
+      background-color: green;
+      height: 400px;
+    }
+
+    #content-left {
+      flex-grow: 4;
+      min-width: 200px;
+    }
+
+    #sidebar {
+      flex-grow: 1;
+      background-color: purple;
+      min-width: 200px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id='container'>
+      <div class='header'>
+        <div><h1>LOGO</h1></div>
+      </div>
+
+      <div class='content'>
+        <div id='content-left'></div>
+        <div id='sidebar'></div>
+      </div>
+
+      <footer>
+        <div></div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<style>
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%
+}
+
+.header div {
+  background-color: red;
+  height: 200px;
+}
+
+footer {
+  width: 100%
+}
+
+footer div {
+  background-color: grey;
+  height: 200px;
+}
+
+
+.header h1 {
+  color: white;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.content div {
+  background-color: green;
+  height: 400px;
+}
+
+#content-left {
+  flex-grow: 1;
+  min-width: 200px;
+}
+
+#content-middle {
+  flex-grow: 2;
+  background-color: purple;
+  min-width: 200px;
+}
+
+#content-right {
+  flex-grow: 1;
+  background-color: blue;
+  min-width: 200px;
+}
+</style>
